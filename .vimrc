@@ -109,13 +109,14 @@ map <Leader>te :Tabularize /=<cr>
 map <Leader>bi :BundleInstall<cr>
 map <Leader>bu :BundleInstall!<cr>
 
-" covim
-map <Leader>cvs :CoVim start<cr>
-
 " copy and paste - for Linux
 map <Leader>c "+
 map <Leader>p "+p
 map <Leader>pm :set paste!<cr>
+
+" copy from vim via putty
+map <Leader>cp :set nonumber norelativenumber wrap<cr>
+map <Leader>ncp :set number relativenumber nowrap<cr>
 
 " others
 " clear search - do not put this comment to the right of ,cs
