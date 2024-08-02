@@ -1,5 +1,5 @@
 #Clone repository
-git clone https:/github.com/jmquinn/prefs.git
+git clone https://github.com/jmquinn/prefs.git
 
 #Install ZSH and OhMyZSH
 apt-get install zsh

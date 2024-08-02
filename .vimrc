@@ -112,7 +112,7 @@ map <Leader>bu :BundleInstall!<cr>
 " copy and paste - for Linux
 map <Leader>c "+
 map <Leader>p "+p
-map <Leader>pm :set paste!<cr>
+map <Leader>sp :set paste!<cr>
 
 " copy from vim via putty
 map <Leader>cp :set nonumber norelativenumber wrap<cr>
